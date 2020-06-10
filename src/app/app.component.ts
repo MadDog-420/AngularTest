@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-dream-app';
+  nombre:String='';
+  apellido:String='';
+  direccion:String='';
+  var1=true;
+  otherVar=true;
+  
+  hacerAlgo(){
+    alert("Bienvenido");
+  }
+  hacerAlgo2(){
+    alert("UTP");
+  }
 }
